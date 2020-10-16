@@ -166,7 +166,7 @@ PRODUCT_PACKAGES += \
 
 # Biometrics
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_tulip
+    android.hardware.biometrics.fingerprint@2.2-service.xiaomi_tulip
 
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager

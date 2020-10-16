@@ -14,9 +14,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_tulip",
+    name: "android.hardware.biometrics.fingerprint@2.2-service.xiaomi_tulip",
     defaults: ["hidl_defaults"],
-    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.xiaomi_tulip.rc"],
+    init_rc: ["android.hardware.biometrics.fingerprint@2.2-service.xiaomi_tulip.rc"],
     vendor: true,
     relative_install_path: "hw",
     srcs: [
@@ -31,6 +31,7 @@ cc_binary {
         "libhardware",
         "libutils",
         "android.hardware.biometrics.fingerprint@2.1",
+        "android.hardware.biometrics.fingerprint@2.2",
     ],
     proprietary: true,
 

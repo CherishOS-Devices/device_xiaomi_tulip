@@ -51,7 +51,7 @@ on post-fs-data
     copy /data/vendor/fpc/user.db /data/vendor_de/0/fpdata/user.db
     chown system system /data/vendor_de/0/fpdata/user.db
 
-service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_tulip
+service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.2-service.xiaomi_tulip
     class late_start
     user system
     group system uhid input
